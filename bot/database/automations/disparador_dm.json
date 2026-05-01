@@ -1,0 +1,34 @@
+{
+    "ativado": false,
+    "tokens": [
+        "MTQxMDc2NDk1MjE0MjA5MDM2NQ.G-C4rt.AnA_2OGRAucO7WItOP2mp8ZWwuzc-YrYQlxLfQ"
+    ],
+    "mensagem": {
+        "content": "aaaaaaaaaaaaaaaa",
+        "externalImage": "https://media.discordapp.net/attachments/1441854479342506065/1441884649579089940/Screenshot_20251122_171431_Discord.jpg?ex=69236b39&is=692219b9&hm=4697af7e9d5c869457dcc5de315952abbac47555c3937d3b678386ca859b996e&=&format=webp&width=433&height=938",
+        "botoes": [
+            {
+                "id": "91e3e126-efa0-47ac-b459-816472f0431e",
+                "label": "aaaaaaaaaaaaaaa",
+                "button": {
+                    "type": "url",
+                    "emoji": null,
+                    "url": "https://visionapplications.com.br",
+                    "style": "url",
+                    "disabled": false
+                }
+            },
+            {
+                "id": "b58ec7fc-2b9d-4383-b298-08f684f1320c",
+                "label": "aaaaaaaaaaaaaaaaaaaa",
+                "button": {
+                    "type": "url",
+                    "emoji": null,
+                    "url": "https://visionapplications.com.br",
+                    "style": "url",
+                    "disabled": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "guild": {
+        "id": 1436134588849066056,
+        "nome": "stormx",
+        "icon_url": null,
+        "banner_url": null
+    },
+    "roles": [
+        {
+            "id": 1436134588849066056,
+            "name": "@everyone",
+            "color": 0,
+            "position": 0
+        },
+        {
+            "id": 1440109246485237856,
+            "name": "stormty.com",
+            "color": 0,
+            "position": 1
+        }
+    ],
+    "categories": [
+        {
+            "id": 1436134590518394981,
+            "name": "stormty.com",
+            "position": 0,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170357869379684,
+            "name": "stormty.com",
+            "position": 1,
+            "overwrites": {}
+        },
+        {
+            "id": 1436171137888288871,
+            "name": "adm",
+            "position": 2,
+            "overwrites": {
+                "1436134588849066056": {
+                    "allow": 0,
+                    "deny": 1049600
+                }
+            }
+        }
+    ],
+    "channels": [
+        {
+            "id": 1436134590518394983,
+            "name": "📣・avisos",
+            "type": "text",
+            "category_id": 1436134590518394981,
+            "position": 1,
+            "overwrites": {}
+        },
+        {
+            "id": 1436169706959798412,
+            "name": "✅・verifique-se",
+            "type": "text",
+            "category_id": 1436134590518394981,
+            "position": 0,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170182811848847,
+            "name": "💖・avaliações",
+            "type": "text",
+            "category_id": 1436134590518394981,
+            "position": 3,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170305906151424,
+            "name": "📦・estoque",
+            "type": "text",
+            "category_id": 1436134590518394981,
+            "position": 2,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170377335279778,
+            "name": "🌐・site",
+            "type": "text",
+            "category_id": 1436170357869379684,
+            "position": 4,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170423741190286,
+            "name": "💸・afiliado",
+            "type": "text",
+            "category_id": 1436170357869379684,
+            "position": 5,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170450010116147,
+            "name": "📩・atendimento",
+            "type": "text",
+            "category_id": 1436170357869379684,
+            "position": 7,
+            "overwrites": {}
+        },
+        {
+            "id": 1436170536181960846,
+            "name": "stormty.com",
+            "type": "voice",
+            "category_id": null,
+            "position": 0,
+            "overwrites": {}
+        },
+        {
+            "id": 1436171157114978304,
+            "name": "entrou",
+            "type": "text",
+            "category_id": 1436171137888288871,
+            "position": 8,
+            "overwrites": {
+                "1436134588849066056": {
+                    "allow": 0,
+                    "deny": 1049600
+                }
+            }
+        },
+        {
+            "id": 1436171171249787021,
+            "name": "ticket",
+            "type": "text",
+            "category_id": 1436171137888288871,
+            "position": 9,
+            "overwrites": {
+                "1436134588849066056": {
+                    "allow": 0,
+                    "deny": 1049600
+                }
+            }
+        },
+        {
+            "id": 1436171202354876436,
+            "name": "x",
+            "type": "text",
+            "category_id": 1436171137888288871,
+            "position": 10,
+            "overwrites": {
+                "1436134588849066056": {
+                    "allow": 0,
+                    "deny": 1049600
+                }
+            }
+        }
+    ],
+    "members": [
+        {
+            "id": 1430198980947611781,
+            "roles": []
+        },
+        {
+            "id": 1440107523071016990,
+            "roles": [
+                1440109246485237856
+            ]
+        }
+    ],
+    "emojis": [],
+    "stickers": [],
+    "messages": {
+        "1436169706959798412": [],
+        "1436134590518394983": [
+            {
+                "content": "",
+                "author": {
+                    "id": "1440107523071016990",
+                    "name": "stormty.com",
+                    "avatar": "https://cdn.discordapp.com/avatars/1440107523071016990/d299ae3aae40f1d0942ac162f8c67d5a.png?size=1024"
+                },
+                "timestamp": "2025-11-17T22:40:00.532000+00:00",
+                "reference": null,
+                "embeds": []
+            }
+        ],
+        "1436170305906151424": [],
+        "1436170182811848847": [],
+        "1436170377335279778": [],
+        "1436170423741190286": [
+            {
+                "content": "https://discord.com/oauth2/authorize?client_id=1440107523071016990&permissions=8&integration_type=0&scope=bot",
+                "author": {
+                    "id": "1430198980947611781",
+                    "name": "stakex",
+                    "avatar": "https://cdn.discordapp.com/avatars/1430198980947611781/a543ddd81a6334be0da93440d18ae2c2.png?size=1024"
+                },
+                "timestamp": "2025-11-17T22:39:56.669000+00:00",
+                "reference": null,
+                "embeds": []
+            }
+        ],
+        "1436170450010116147": [],
+        "1436171157114978304": [],
+        "1436171171249787021": [],
+        "1436171202354876436": []
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "websocket_manager": {
+        "server_url": "https://cloud.visionapplications.com.br",
+        "reconnect_interval": 5,
+        "auto_start": true
+    },
+    "websocket_boost": {
+        "server_url": "wss://boost.visionapplications.com.br",
+        "reconnect_interval": 5,
+        "auto_start": true
+    }
+}

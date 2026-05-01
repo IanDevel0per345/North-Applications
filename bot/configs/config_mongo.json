@@ -1,0 +1,4 @@
+{
+    "mongoURL": "mongodb+srv://mendes:zm9MxdD8gb42qzgw@cluster0.pdwxdpq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "databaseName": "vision_bots"
+}

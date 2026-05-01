@@ -1,0 +1,26 @@
+{
+    "botID": "VisionBot8",
+    "botToken": "SenhaForte123",
+    "apiURL": "http://localhost:3000",
+    "version": "1.0.0",
+    "syncEmojis": true,
+    "saveConfig": false,
+    "startOnBackup": false,
+    "bot": {
+        "token": "MTQ1MjczNjUxMjk5NDA1MDE4OQ.GAQBa0.eAskCB_5f4S9SuLi-pCJqUtsJRck2-0gW0q4Qg",
+        "owner": "1230655441269293197",
+        "id": "1452736512994050189",
+        "perms": [
+            "1373429524351418429",
+            "1303763805213298690",
+            "1400205856963821648",
+            "1418739244826099843",
+            "1336524642185121848",
+            "1324926310287544330",
+            "1211405875827179520",
+            "895847862942961724",
+            "1230655441269293197"
+        ],
+        "server": "1410763577224200194"
+    }
+}
