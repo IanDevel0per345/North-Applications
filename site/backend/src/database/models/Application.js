@@ -37,21 +37,6 @@ const InfoSchema = new mongoose.Schema(
   { _id: false }
 );
 
-const ModuleSettingsSchema = new mongoose.Schema(
-  {
-    enabled: { type: Boolean, default: false },
-    channelId: { type: String, default: "" },
-    roleId: { type: String, default: "" },
-    logChannelId: { type: String, default: "" },
-    title: { type: String, default: "" },
-    message: { type: String, default: "" },
-    options: { type: mongoose.Schema.Types.Mixed, default: {} },
-    updatedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null },
-    updatedAt: { type: Date, default: null },
-  },
-  { _id: false }
-);
-
 const ApplicationSchema = new mongoose.Schema(
   {
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true, index: true },
@@ -72,18 +57,6 @@ const ApplicationSchema = new mongoose.Schema(
     hosting: { type: HostingSchema, default: {} },
     bot: { type: BotSchema, default: {} },
     info: { type: InfoSchema, default: {} },
-    modules: {
-      store: { type: ModuleSettingsSchema, default: () => ({}) },
-      ticket: { type: ModuleSettingsSchema, default: () => ({}) },
-      moderation: { type: ModuleSettingsSchema, default: () => ({}) },
-      automation: { type: ModuleSettingsSchema, default: () => ({}) },
-      giveaway: { type: ModuleSettingsSchema, default: () => ({}) },
-      payments: { type: ModuleSettingsSchema, default: () => ({}) },
-      channels: { type: ModuleSettingsSchema, default: () => ({}) },
-      roles: { type: ModuleSettingsSchema, default: () => ({}) },
-      backup: { type: ModuleSettingsSchema, default: () => ({}) },
-      extensions: { type: ModuleSettingsSchema, default: () => ({}) },
-    },
 
     expiresAt: { type: Date },
     lastChargeSent: { type: Date, default: null },

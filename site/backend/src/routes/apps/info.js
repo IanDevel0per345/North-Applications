@@ -22,7 +22,6 @@ router.get("/:id/info", async (req, res) => {
         hosting: { appId: 1 },
         bot: { id: 1, owner: 1, server: 1, perms: 1, token: 1 }, // token apenas para calcular configured
         info: { name: 1, imageUrl: 1 },
-        modules: 1,
         expiresAt: 1,
         userId: 1,
       })
@@ -121,19 +120,6 @@ router.get("/:id/info", async (req, res) => {
         name: app.info?.name || "North Applications",
         imageUrl: app.info?.imageUrl || "/vision.png",
       },
-      modules: Object.fromEntries(
-        Object.entries(app.modules || {}).map(([key, value]) => [
-          key,
-          {
-            enabled: Boolean(value?.enabled),
-            channelId: value?.channelId || "",
-            roleId: value?.roleId || "",
-            logChannelId: value?.logChannelId || "",
-            title: value?.title || "",
-            updatedAt: value?.updatedAt || null,
-          },
-        ])
-      ),
       expiresAt: app.expiresAt || null,
       permissions: permsFlags,
     };
@@ -145,4 +131,3 @@ router.get("/:id/info", async (req, res) => {
 });
 
 export default router;
-

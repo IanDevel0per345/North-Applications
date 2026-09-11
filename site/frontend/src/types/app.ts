@@ -44,17 +44,6 @@ export type AppInfo = {
     name: string;
     imageUrl: string | null;
   };
-  modules?: Record<
-    string,
-    {
-      enabled: boolean;
-      channelId?: string;
-      roleId?: string;
-      logChannelId?: string;
-      title?: string;
-      updatedAt?: string | null;
-    }
-  >;
   permissions?: {
     canAccessRestricted: boolean;
     canChangeServer: boolean;

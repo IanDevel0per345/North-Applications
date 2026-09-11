@@ -36,7 +36,7 @@ export type AppSidebarGroup = {
   disabled?: boolean;
 };
 
-export const APP_SIDEBAR_BETA_MODE = false;
+export const APP_SIDEBAR_BETA_MODE = true;
 
 export function getAppSidebarGroups(base: string, opts?: { betaMode?: boolean }): AppSidebarGroup[] {
   const betaMode = opts?.betaMode ?? APP_SIDEBAR_BETA_MODE;
