@@ -1,0 +1,7 @@
+DISPLAY_NAME=North Applications API
+DESCRIPTION=Backend da North Applications para dashboard, autenticacao, pagamentos e configuracoes dos bots.
+LANGUAGE=node
+MEMORY=512
+VERSION=recommended
+SUBDOMAIN=north-applications-api
+CUSTOM_COMMAND=npm install --omit=dev && npm start
