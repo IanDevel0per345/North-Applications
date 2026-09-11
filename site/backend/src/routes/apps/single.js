@@ -43,7 +43,7 @@ router.get("/:id", async (req, res) => {
         configured: Boolean(app?.bot?.token || ""),
       },
       info: {
-        name: app.info?.name || "Vision Pro",
+        name: app.info?.name || "North Applications",
         imageUrl: app.info?.imageUrl || "/vision.png",
       },
       expiresAt: app.expiresAt || null,
@@ -58,5 +58,4 @@ router.get("/:id", async (req, res) => {
 });
 
 export default router;
-
 

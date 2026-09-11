@@ -41,7 +41,7 @@ export function SectionLinks({ onNavigate }: { onNavigate?: () => void }) {
           const isDisabledGroup = idx >= betaSeparatorIndex;
           return (
             <div key={g.id}>
-              {idx === betaSeparatorIndex ? (
+              {idx === betaSeparatorIndex && betaSeparatorIndex !== Number.MAX_SAFE_INTEGER ? (
                 <div className="flex items-center my-2" role="separator" aria-label="Em breve">
                   <div className="flex-1 h-px bg-foreground/10" />
                   <span className="mx-2 text-[10px] uppercase tracking-wider text-foreground/50">EM BREVE</span>
@@ -111,5 +111,4 @@ export function SectionLinks({ onNavigate }: { onNavigate?: () => void }) {
     </nav>
   );
 }
-
 

@@ -16,7 +16,7 @@ export const Footer = () => (
                 <Image src="/vision.png" alt="Logo" height={40} width={40} />
                 <div className="flex flex-col leading-tight">
                     <span className="text-foreground/90 font-normal font-sans text-[13px]">
-                        Vision
+                        North
                     </span>
                     <span className="text-foreground/60 font-normal font-sans text-[13px]">
                         Applications

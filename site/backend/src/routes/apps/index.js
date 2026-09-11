@@ -14,6 +14,7 @@ import getExpiringApps from "./expiring.js";
 import recoverApplication from "./recover.js";
 import transferOwnerRoute from "./transferOwner.js";
 import freeRoute from "./free.js";
+import modulesRoute from "./modules.js";
 
 const router = express.Router();
 router.use(authMiddleware);
@@ -30,9 +31,9 @@ router.use("/", botProfileRoute);
 router.use("/", customizationRoute);
 router.use("/", transferOwnerRoute);
 router.use("/", freeRoute);
+router.use("/", modulesRoute);
 router.get("/expiring", getExpiringApps);
 router.post("/recover/:id", recoverApplication);
 
 export default router;
-
 

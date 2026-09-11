@@ -30,7 +30,7 @@ export function BotOverviewSection({ app }: BotOverviewSectionProps) {
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 w-full">
                 <div className="flex flex-col">
                     <div className="flex flex-row items-center gap-2">
-                        <h1 className="text-foreground font-bold text-xl">{app.name || "Vision Pro"}</h1>
+                        <h1 className="text-foreground font-bold text-xl">{app.name || "North Applications"}</h1>
                         {app?.bot?.configured === false && (
                             <div
                                 className="py-1 px-3 rounded-full border border-red-500/20 bg-red-500/5 text-[11px] text-red-500 flex items-center justify-center gap-1"

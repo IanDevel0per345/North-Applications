@@ -36,7 +36,7 @@ export type AppSidebarGroup = {
   disabled?: boolean;
 };
 
-export const APP_SIDEBAR_BETA_MODE = true;
+export const APP_SIDEBAR_BETA_MODE = false;
 
 export function getAppSidebarGroups(base: string, opts?: { betaMode?: boolean }): AppSidebarGroup[] {
   const betaMode = opts?.betaMode ?? APP_SIDEBAR_BETA_MODE;
@@ -68,7 +68,7 @@ export function getAppSidebarGroups(base: string, opts?: { betaMode?: boolean })
       id: "sistemas",
       label: "Sistemas",
       items: [
-        { id: "cloud", label: "Vision Cloud", href: `${base}/cloud`, icon: faCloud },
+        { id: "cloud", label: "North Cloud", href: `${base}/cloud`, icon: faCloud },
         { id: "protections", label: "Proteções", href: `${base}/protections`, icon: faShield },
         { id: "automations", label: "Automações", href: `${base}/automations`, icon: faRotateRight },
         { id: "store", label: "Loja", href: `${base}/store`, icon: faShop },
@@ -79,4 +79,3 @@ export function getAppSidebarGroups(base: string, opts?: { betaMode?: boolean })
     },
   ];
 }
-
